@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useState } from 'react';
 
 import DestinationCard from '../components/DestinationCard';
 
 const Destinations = () => {
+  const [search,setSearch] = useState('');
+
+
   const destinations = [
     {
       title: 'Paris',
@@ -21,13 +24,20 @@ const Destinations = () => {
     },
   ];
 
+const handleSearch =(e)=>{
+  setSearch(e.target.value);
+}
   return (
+    <>
     <div>
+
+      <input type='text' value={search} onChange={handleSearch} placeholder='Search the Available desinations'/>
       <h2>Destinations</h2>
       {destinations.map((dest, index) => (
         <DestinationCard key={index} {...dest} />
       ))}
     </div>
+    </>
   );
 };
 
