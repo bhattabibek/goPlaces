@@ -1,10 +1,22 @@
 import "./App.css";
-import Home from "./pages/Home";
+import DestinationCard from "./components/DestinationCard";
+import Navbar from "./components/Navbar";
+import AutoPlay from "./components/Slider";
+
+
 
 
 function App() {
   return (
-  <Home/>
+    <>
+  <Navbar/>
+
+  <AutoPlay/>
+  <div className="mt-60">
+  <DestinationCard />
+</div>
+  </>
+
   )
   
 }

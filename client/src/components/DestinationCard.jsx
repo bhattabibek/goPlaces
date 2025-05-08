@@ -1,17 +1,32 @@
 import React from "react";
 
 
-const DestinationCard = ({image,title,description}) => {
+const DestinationCard = () => {
   return (
     <>
-    
-    <div>
-      <img src={image} alt="title"/>
-      <div>
-       <h3>{title}</h3>
-       <p>{description}</p>
+     <div className="flex flex-col w-full gap-6 m-10 justify-center">
+     <div className="shadow-1xl">
+        <img src="/nepal.jpg"/>
+        <h2 className="text-center font-bold">Chitwan National Park</h2>
+        <p className="p-6">animi doloremque voluptates nemo, cum delectus consectetur beatae consequatur error aliquam, repellat nesciunt nulla nam. Aliquam, odio qui quo sed commodi accusamus cum nam consequuntur illum incidunt vero quis eligendi?</p>
+     <button className="bg-amber-500 p-4 rounded-tr-xl">Book Now</button>
       </div>
-    </div>
+      <div className="shadow-1xl">
+        <img src="/mount.jpg"/>
+        <h2 className="text-center font-bold">Mount Everest</h2>
+        <p className="p-6">animi doloremque voluptates nemo, cum delectus consectetur beatae consequatur error aliquam, repellat nesciunt nulla nam. Aliquam, odio qui quo sed commodi accusamus cum nam consequuntur illum incidunt vero quis eligendi?</p>
+        <button className="bg-amber-500 p-4 rounded-tr-xl">Book Now</button>
+      </div>
+      <div className="shadow-1xl">
+        <img src="/monastery.jpg"/>
+        <h2 className="text-center font-bold">Bardiya National Park</h2>
+        <p className="p-6">animi doloremque voluptates nemo, cum delectus consectetur beatae consequatur error aliquam, repellat nesciunt nulla nam. Aliquam, odio qui quo sed commodi accusamus cum nam consequuntur illum incidunt vero quis eligendi?</p>
+        <button className="bg-amber-500 p-4 rounded-tr-xl">Book Now</button>
+      </div>
+      
+     </div>
+     
+ 
     </>
 
   )
