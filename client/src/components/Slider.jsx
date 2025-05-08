@@ -16,7 +16,7 @@ function AutoPlay() {
   };
 
   return (
-    <div className="slider-container px-4 h-6 w-full">
+    <div className="slider-container px-4 h-6 w-full bg-black bg-opacity-50">
       <Slider {...settings}>
         <div>
         <img src="/image.jpg" alt="Mountain"  />
