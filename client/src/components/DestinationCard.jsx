@@ -1,10 +1,11 @@
 import React from "react";
 
 
+
 const DestinationCard = () => {
   return (
     <>
-     <div className="flex flex-col w-full gap-6 m-10 justify-center md:flex md:flex-row">
+     <div className="flex flex-col w-full gap-6 m-3 justify-center md:flex md:flex-row">
      <div className="shadow-lg">
         <img src="/nepal.jpg"/>
         <h2 className="text-center font-bold">Chitwan National Park</h2>

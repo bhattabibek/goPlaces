@@ -1,5 +1,6 @@
 import "./App.css";
 import DestinationCard from "./components/DestinationCard";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
 import AutoPlay from "./components/Slider";
@@ -17,6 +18,7 @@ function App() {
   <DestinationCard />
 </div>
 <Parallax/>
+<Footer/>
   </>
 
   )
