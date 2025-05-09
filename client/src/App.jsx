@@ -1,4 +1,5 @@
 import "./App.css";
+import Activities from "./components/Activities";
 import DestinationCard from "./components/DestinationCard";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -17,6 +18,7 @@ function App() {
   <div className="mt-60 md:mt-140 lg:mt-180 xl:mt-230">
   <DestinationCard />
 </div>
+<Activities/>
 <Parallax/>
 <Footer/>
   </>

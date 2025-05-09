@@ -17,19 +17,19 @@ function AutoPlay() {
 
   return (
     <div className="slider-container  h-6 bg-opacity-50">
-      <Slider {...settings}>
+      <Slider {...settings} >
         <div>
-        <img src="/image.jpg" alt="Mountain"  />
+        <img className="w-full h-[80vh] object-cover" src="/image.jpg" alt="Mountain"  />
 
         </div>
         <div>
-          <img src="/mount.jpg"/>
+          <img className="w-full h-[80vh] object-cover" src="/mount.jpg"/>
         </div>
         <div>
-        <img src="/nepal.jpg"/>
+        <img className="w-full h-[80vh] object-cover"src="/nepal.jpg"/>
         </div>
         <div>
-          <img src="/monastery.jpg"/>
+          <img  className="w-full h-[80vh] object-cover" src="/monastery.jpg"/>
         </div>
         
       </Slider>
