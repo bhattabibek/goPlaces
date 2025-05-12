@@ -9,8 +9,8 @@ const Footer = () => {
     <>
     <div style={{ backgroundColor: "#20241c" }} className='flex flex-row flex-wrap gap-6 p-4 text-white '>
     <div>
-      <h1 className='font-bold'>GoPlaces.</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium corporis dignissimos reprehenderit dolorum, accusamus delectus.</p>
+      <h2 className='font-bold'>GoPlaces.</h2>
+      <p>Go places is a Nepal Based Travel and Tour Agencies that Helps Adventure and thrill Seeking Individuals the best Tour Packages at a cost Effective Rate</p>
     </div>
     <div>
       <h3 className='font-bold'>QUICK LINKS</h3>
@@ -23,7 +23,7 @@ const Footer = () => {
       </ul>
     </div>
     <div>
-      <h3  className='font-bold'>Contact Us</h3>
+      <h2  className='font-bold'>Contact Us</h2>
       <ul>
         <li>Phone Number: +977 987654321</li>
         <li>Address: Kathmandu,Nepal</li>
