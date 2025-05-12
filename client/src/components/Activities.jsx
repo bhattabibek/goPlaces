@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import styles from "./Activities.module.css"
 
 const Activities = () => {
   const StyledButton = styled.button`
@@ -21,7 +22,7 @@ const Activities = () => {
   `;
   return (
     <>
-    <h1 className='text-center font-extrabold text-3xl'>Activities</h1>
+    <h1 className={styles.headingTitle}>Activities</h1>
     <CardPadding className='md:flex md:gap-2.5'>
     <CardShadow>
       <img src='/trek.jpg'/>
