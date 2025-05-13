@@ -20,7 +20,7 @@ function AutoPlay() {
       <Slider {...settings} className="relative" >
         <div>
         <img className="w-full h-[80vh] relative object-cover" src="/image.jpg" alt="Mountain"  />
-        <div class="absolute inset-0 bg-black opacity-13"></div>
+        <div className="absolute inset-0 bg-black opacity-13"></div>
         </div>
         <div>
           <img className="w-full h-[80vh] object-cover" src="/mount.jpg"/>
@@ -34,7 +34,7 @@ function AutoPlay() {
         
       </Slider>
       <div className="flex flex-row">
-      <div class="absolute inset-0 text-white text-4xl font-bold flex items-center">
+      <div className="absolute inset-0 text-white text-4xl font-bold flex items-center">
   Welcome to GoPlaces.<br/> Here you will find<br/> attractive Destinations <br/>in Nepal for you next Holidays.
   <br/><button className="border border-white rounded-3xl p-4">Explore Now</button>
   </div>
