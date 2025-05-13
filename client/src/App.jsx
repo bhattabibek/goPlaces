@@ -15,7 +15,7 @@ import AutoPlay from "./components/Slider";
 function App() {
   return (
     <>
-  <Navbar/>
+  {/* <Navbar/>
 
   <AutoPlay/>
   <div className="mt-60 md:mt-140 lg:mt-180 xl:mt-230">
@@ -25,7 +25,7 @@ function App() {
 <Information/>
 <Activities/>
 <Parallax/>
-<Footer/>
+<Footer/> */}
 <Login/>
   </>
 
