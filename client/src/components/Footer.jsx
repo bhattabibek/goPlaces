@@ -7,7 +7,7 @@ import { CiLinkedin } from "react-icons/ci";
 const Footer = () => {
   return (
     <>
-    <div style={{ backgroundColor: "#20241c" }} className='flex flex-row flex-wrap gap-6 p-4 text-white '>
+    <div className='flex flex-row flex-wrap gap-6 p-4 text-white  bg-[#154c79]'>
     <div>
       <h2 className='font-bold'>GoPlaces.</h2>
       <p>Go places is a Nepal Based Travel and Tour Agencies that Helps Adventure and thrill Seeking Individuals the best Tour Packages at a cost Effective Rate</p>

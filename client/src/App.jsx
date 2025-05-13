@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About";
 import Activities from "./components/Activities";
 import DestinationCard from "./components/DestinationCard";
 import Footer from "./components/Footer";
@@ -18,6 +19,7 @@ function App() {
   <div className="mt-60 md:mt-140 lg:mt-180 xl:mt-230">
   <DestinationCard />
 </div>
+<About/>
 <Activities/>
 <Parallax/>
 <Footer/>
