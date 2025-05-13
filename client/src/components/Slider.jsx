@@ -34,7 +34,7 @@ function AutoPlay() {
         
       </Slider>
       <div className="flex flex-row">
-      <div className="absolute inset-0 text-white text-4xl font-bold flex items-center">
+      <div className="absolute inset-0 text-white text-2xl font-bold flex items-center">
   Welcome to GoPlaces.<br/> Here you will find<br/> attractive Destinations <br/>in Nepal for you next Holidays.
   <br/><button className="border border-white rounded-3xl p-4">Explore Now</button>
   </div>
