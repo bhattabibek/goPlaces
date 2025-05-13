@@ -2,6 +2,8 @@ import React from "react";
 import { Link, Links } from "react-router-dom";
 import { IoHomeOutline } from "react-icons/io5";
 import { FaGlobe } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import { FaRegUser } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -13,12 +15,19 @@ const Navbar = () => {
         <h1 className="text-5xl flex items-center gap-2">
   G <FaGlobe /> PLACES.
 </h1>
-          <div className="flex gap-4 justify-center"><Link to="/"><IoHomeOutline />Home</Link>
+          <div className="flex gap-5 items-center"><Link to="/">Home</Link>
           <Link to="/About">Destinations</Link>
           <Link to={"/about"}>About Us</Link>
+          <Link to={"/about"}>Destinations</Link>
+          <Link to={"/about"}>Tours</Link>
           <Link to="/contact">Contact Us</Link></div>
-          <button className="bg-black rounded-1xl text-white p-3 hover:bg-amber-500">Contact Us</button>
+          <button className="flex items-center gap-2 bg-black rounded-xl text-white p-3 hover:bg-amber-500">
+  <CiMail  size={18}/>
+  Contact Us
+</button>
+          <button className="flex items-center gap-2 bg-black rounded-xl text-white p-3 hover:bg-amber-500"><FaRegUser size={18} />REGISTER</button>
         </div>
+        
       </nav>
     </>
   );
