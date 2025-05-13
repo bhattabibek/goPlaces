@@ -3,6 +3,7 @@ import About from "./components/About";
 import Activities from "./components/Activities";
 import DestinationCard from "./components/DestinationCard";
 import Footer from "./components/Footer";
+import Information from "./components/Information";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
 import AutoPlay from "./components/Slider";
@@ -20,6 +21,7 @@ function App() {
   <DestinationCard />
 </div>
 <About/>
+<Information/>
 <Activities/>
 <Parallax/>
 <Footer/>
