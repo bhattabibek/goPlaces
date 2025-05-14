@@ -7,6 +7,7 @@ import Information from "./components/Information";
 import Login from "./components/Login";
 import Navbar from "./components/Navbar";
 import Parallax from "./components/Parallax";
+import Register from "./components/Register";
 import AutoPlay from "./components/Slider";
 
 
@@ -26,7 +27,8 @@ function App() {
 <Activities/>
 <Parallax/>
 <Footer/> */}
-<Login/>
+{/* <Login/> */}
+<Register/>
   </>
 
   )
