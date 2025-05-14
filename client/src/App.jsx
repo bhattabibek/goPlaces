@@ -1,4 +1,5 @@
 import "./App.css";
+import Abc from "./components/Abc";
 import About from "./components/About";
 import Activities from "./components/Activities";
 import DestinationCard from "./components/DestinationCard";
@@ -28,7 +29,8 @@ function App() {
 <Parallax/>
 <Footer/> */}
 {/* <Login/> */}
-<Register/>
+<Abc/>
+{/* <Register/> */}
   </>
 
   )

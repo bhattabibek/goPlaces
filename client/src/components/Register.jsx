@@ -6,9 +6,9 @@ const Register = () => {
     <>
     <div className='flex flex-col xl:flex-row '>
     <div className=''>
-      <img src='/hiking.jpg'/>
+      <img src='/nepal.jpg'/>
     </div>
-    <div className='flex flex-col m-10 gap-5 h-screen'>
+    <div className='flex flex-col m-10 gap-5'>
       <h1 className="text-5xl flex items-center gap-2">
                   G <FaGlobe /> PLACES.
                 </h1>
